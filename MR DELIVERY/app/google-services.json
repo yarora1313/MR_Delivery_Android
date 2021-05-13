@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "257938151557",
+    "firebase_url": "https://mr-delivery-4506b.firebaseio.com",
+    "project_id": "mr-delivery-4506b",
+    "storage_bucket": "mr-delivery-4506b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257938151557:android:b77e9c3d7dc5576519f1ec",
+        "android_client_info": {
+          "package_name": "com.example.mrdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257938151557-hdulmt1ano84hs3ucc3f35nqkdnhhcvr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mrdelivery",
+            "certificate_hash": "47fe6dadf20ff39b379510ae38c2af4aefba1708"
+          }
+        },
+        {
+          "client_id": "257938151557-q293617a6rs95c7rqpu6lbs42pgtvv96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfxDOcb4ey3kSN-rVQ4_WgtQjbmso3bS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257938151557-q293617a6rs95c7rqpu6lbs42pgtvv96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

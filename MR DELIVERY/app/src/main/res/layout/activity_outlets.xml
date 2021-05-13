@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Outlets"
+    android:background="@drawable/background_customer">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/yummpys"
+        android:layout_width="375dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="384dp"
+        app:cardBackgroundColor="#ffe135"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="110dp"
+            android:text="Dosa Palace"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/FruitFul"
+        android:layout_width="375dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="#ffe135"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="110dp"
+            android:gravity="center_horizontal"
+            android:text="Fruit Wizard"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c3"
+        android:layout_width="375dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="#ffe135"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yummpys">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="100dp"
+            android:gravity="center_horizontal"
+            android:text="Home Cooked"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi! xyz"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
+
+    <ImageView
+        android:id="@+id/profileSetting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/lines3"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text="Outlets Currently Available"
+        android:textColor="#191919"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/yummpys"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
